@@ -99,6 +99,9 @@ export const Navbar = (props) => {
                 <NavItem onClick={() => setOpenMenu(false)} to={'#about'}>
                   Sobre mi
                 </NavItem>
+                <NavItem onClick={() => setOpenMenu(false)} to={'#experiencie'}>
+                  Experiencia
+                </NavItem>
                 <NavItem onClick={() => setOpenMenu(false)} to={'#techs'}>
                   Tecnologias
                 </NavItem>
