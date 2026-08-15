@@ -1,141 +1,58 @@
 ---
 import { Carrousel } from './react/Carrousel'
 import techs from '../data/technologies.json'
+
+const categories = ['Frontend', 'Backend', 'Databases', 'Cloud', 'Tools']
+
+
 ---
-
-<section class='w-full mx-auto pt-14 pb-10'>
-  <h2
-    id='techs'
-    class='text-6xl movil-lg:text-7xl tablet-lg:text-8xl laptop:text-9xl font-bold font-inter text-white text-center my-12 movil-lg:my-16 tablet:my-16 mb-16'
-  >
-    Tecnologias
-  </h2>
-
-  <section class='flex flex-col items-center'>
-    <!-- carrousel  -->
-
-    <Carrousel title='Grupos de tecnologias que utilizo' client:visible qty={3}>
-      <!-- HTML CSS JS -->
-      <article
-        class={`w-11/12 h-full flex flex-col justify-center items-center snap-center shrink-0`}
-      >
-        <img src='/assets/html_css_js.png' alt='git and github' />
-        <p
-          class='text-center text-2xl movil-lg:text-3xl laptop:text-4xl my-5 px-5 text-slate-300 font-semibold cursor-default'
-        >
-          HTML5, CSS & JS como tecnologias base de lado del FrontEnd.
-        </p>
-      </article>
-
-      <!-- REACT, NEXTJS, ASTRO -->
-      <article
-        class={`w-11/12 h-full flex flex-col justify-center items-center snap-center shrink-0`}
-      >
-        <div class='w-full flex justify-evenly px-4'>
-          <img
-            class='min-w-[40px] object-contain'
-            src='/assets/react_logo.png'
-            alt='git and github'
-          />
-          <img
-            class='min-w-[40px] object-contain'
-            src='/assets/1200px-Nextjs-logo.svg.png'
-            alt='git and github'
-          />
-          <img
-            class='min-w-[40px] object-contain'
-            src='/assets/astro-logo-B3B4DABB0A-seeklogo.com.png'
-            alt='git and github'
-          />
-        </div>
-        <p
-          class='text-center text-2xl movil-lg:text-3xl laptop:text-4xl my-5 px-5 text-slate-300 font-bold cursor-default'
-        >
-          React, NextJs y Astro para crear aplicaciones y paginas web
-          profesionales desde pequeños a grandes proyectos.
-        </p>
-      </article>
-
-      <!-- NodeJs ExpressJs Socket.io -->
-      <article
-        class={`w-11/12 h-full flex flex-col justify-center items-center snap-center shrink-0`}
-      >
-        <div class='w-full flex justify-evenly px-4'>
-          <img
-            class='min-w-[40px] object-contain'
-            src='/assets/node-js-736399_960_720-2.png'
-            alt='nodejs and expressjs'
-          />
-          <img
-            class='min-w-[40px] object-contain'
-            src='/assets/socket.webp'
-            alt='git and github'
-          />
-        </div>
-        <p
-          class='text-center text-2xl movil-lg:text-3xl laptop:text-4xl my-5 px-5 text-slate-300 font-bold cursor-default'
-        >
-          En el BackEnd utilizo NodeJS y expressJS para el procesamiento de
-          datos y la comunicacion con el FrontEnd. Socket.io para la
-          comunicacion en tiempo real (chat, notificaciónes)
-        </p>
-      </article>
-      <!-- MongoDB Firebase -->
-      <article
-        class={`w-11/12 h-full flex flex-col justify-center items-center snap-center shrink-0 `}
-      >
-        <div class='w-full flex-col flex items-center'>
-          <img
-            class='w-52 max-h-[110px]'
-            src='/assets/1 doAg1_fMQKWFoub-6gwUiQ.png'
-            alt='mongob'
-          />
-          <img
-            class='min-w-[40px] max-h-[60px]'
-            src='/assets/logo-firebase.png'
-            alt='firebaseb'
-          />
-        </div>
-        <p
-          class='text-center text-2xl movil-lg:text-3xl laptop:text-4xl my-5 px-5 text-slate-300 font-bold cursor-default'
-        >
-          Utilizo Firebase y MongoDB como Bases de Datos NoSql para gestionar
-          los datos que se envian entre el frontend y el backend.
-        </p>
-      </article>
-      <!-- GIT GITHUB -->
-      <article
-        class={`w-11/12 h-full flex flex-col justify-center items-center snap-center shrink-0 py-10`}
-      >
-        <img class='py-14' src='/assets/git_github.png' alt='git and github' />
-        <p
-          class='text-center text-2xl movil-lg:text-3xl laptop:text-4xl my-5 px-5 text-slate-300 font-bold cursor-default'
-        >
-          git y github para el vercionamiento y gestion en la nube de los
-          proyectos que realizo.
-        </p>
-      </article>
-    </Carrousel>
-  </section>
   <p
     class='text-center text-4xl movil-lg:text-5xl tablet:text-6xl laptop:text-7xl font-inter font-bold mt-20 mb-10 laptop:mt-28 text-indigo-100'
   >
-    Todas las tecnologias
+    Tecnologías
   </p>
-  <section
-    class='grid grid-cols-1 movil-lg:grid-cols-2 tablet:grid-cols-3 gap-5 w-fullp-3 max-w-4xl tablet-lg:max-w-5xl px-2 mx-auto'
-  >
+
+  <section class='w-full max-w-6xl px-3 mx-auto'>
+
     {
-      techs.map((tech) => (
-        <div class='flex items-center justify-evenly flex-wrap w-full max-w-md my-2 p-5 tablet-lg:py-7 laptop:py-8 mx-auto rounded-lg bg-gray-800 cursor-default'>
-          <img
-            class='max-w-[40px] max-h-[40px] laptop:max-w-[50px] laptop:max-h-[50px]'
-            src={tech.image}
-            alt={tech.name}
-          />
-          <p class='mx-5 font-inter font-semibold text-white'>{tech.name}</p>
+      categories.map((category) => (
+        <div class='mb-12'>
+
+          <!-- Título de categoría -->
+          <h3
+            class='text-center text-3xl movil-lg:text-4xl tablet:text-5xl laptop:text-6xl font-inter font-bold text-indigo-100 mb-6'
+          >
+            {category}
+          </h3>
+
+          <!-- Tecnologías de la categoría -->
+          <div
+            class='grid grid-cols-1 movil-lg:grid-cols-2 tablet:grid-cols-3 gap-5'
+          >
+            {
+              techs
+                .filter((tech) => tech.category === category)
+                .map((tech) => (
+                  <div
+                    class='flex items-center justify-evenly flex-wrap w-full max-w-md my-2 p-5 tablet-lg:py-7 laptop:py-8 mx-auto rounded-lg bg-gray-300 cursor-default'
+                    title={tech.name}
+                  >
+                    <img
+                      class='max-w-[40px] max-h-[40px] laptop:max-w-[50px] laptop:max-h-[50px]'
+                      src={tech.image}
+                      alt={tech.name}
+                    />
+
+                    <p class='mx-5 font-inter font-semibold text-slate-800'>
+                      {tech.name}
+                    </p>
+                  </div>
+                ))
+            }
+          </div>
+
         </div>
       ))
     }
+
   </section>
-</section>

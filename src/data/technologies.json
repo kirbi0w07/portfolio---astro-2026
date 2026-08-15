@@ -1,73 +1,97 @@
 [
   {
     "name": "HTML5",
+    "category": "Frontend",
     "image": "/assets/techs/html.png"
   },
   {
     "name": "CSS3",
+    "category": "Frontend",
     "image": "/assets/techs/css.png"
   },
   {
     "name": "JavaScript",
+    "category": "Frontend",
     "image": "/assets/techs/js.png"
   },
   {
+    "name": "TypeScript",
+    "category": "Frontend",
+    "image": "/assets/techs/ts.svg"
+  },
+  {
+    "name": "Vue 3",
+    "category": "Frontend",
+    "image": "/assets/techs/vue.webp"
+  },
+  {
+    "name": "Pinia",
+    "category": "Frontend",
+    "image": "/assets/techs/pinia.png"
+  },
+  {
+    "name": "Astro",
+    "category": "Frontend",
+    "image": "/assets/astro-logo-B3B4DABB0A-seeklogo.com.png"
+  },
+  {
+    "name": "TailwindCSS",
+    "category": "Frontend",
+    "image": "/assets/techs/Tailwind-img.png"
+  },
+  {
+    "name": "PHP",
+    "category": "Backend",
+    "image": "/assets/techs/php.webp"
+  },
+  {
+    "name": "Laravel",
+    "category": "Backend",
+    "image": "/assets/techs/laravel.webp"
+  },
+  {
+    "name": "Laravel Reverb",
+    "category": "Backend",
+    "image": "/assets/techs/laravel-reverb.webp"
+  },
+  {
+    "name": "REST APIs",
+    "category": "Backend",
+    "image": "/assets/techs/rest.png"
+  },
+  {
+    "name": "PostgreSQL",
+    "category": "Databases",
+    "image": "/assets/techs/postgresql.webp"
+  },
+  {
+    "name": "MySQL",
+    "category": "Databases",
+    "image": "/assets/techs/mysql.png"
+  },
+  {
+    "name": "AWS",
+    "category": "Cloud",
+    "image": "/assets/techs/aws.svg"
+  },
+  {
+    "name": "Laravel Cloud",
+    "category": "Cloud",
+    "image": "/assets/techs/laravel-cloud.png"
+  },
+  {
     "name": "Git",
+    "category": "Tools",
     "image": "/assets/techs/git.png"
   },
   {
     "name": "Github",
+    "category": "Tools",
     "image": "/assets/techs/github.png"
   },
   {
-    "name": "SASS",
-    "image": "/assets/techs/sass.png"
-  },
-  {
-    "name": "TailwindCSS",
-    "image": "/assets/techs/Tailwind-img.png"
-  },
-  {
-    "name": "React",
-    "image": "/assets/techs/react.png"
-  },
-  {
-    "name": "NPM",
-    "image": "/assets/techs/1200px-Npm-logo.svg.png"
-  },
-  {
-    "name": "NodeJS",
-    "image": "/assets/techs/node.png"
-  },
-  {
-    "name": "ExpressJS",
-    "image": "/assets/techs/express.png"
-  },
-  {
-    "name": "NextJS",
-    "image": "/assets/techs/next.png"
-  },
-  {
-    "name": "MongoDB",
-    "image": "/assets/techs/mongo.png"
-  },
-  {
-    "name": "Firabase",
-    "image": "/assets/techs/firebase.png"
-  },
-  {
     "name": "PostMan",
+    "category": "Tools",
     "image": "/assets/techs/postman.png"
-  },
-  {
-    "name": "Socket.io",
-    "image": "/assets/techs/Socket-io.svg"
-  },
-  {
-    "name": "Astro",
-    "image": "/assets/astro-logo-B3B4DABB0A-seeklogo.com.png"
-  },
-  { "name": "Photoshop", "image": "/assets/techs/ps.png" },
-  { "name": "Illustrator", "image": "/assets/techs/il.png" },
-  { "name": "Figma", "image": "/assets/techs/figma.png" }
+  }
 ]

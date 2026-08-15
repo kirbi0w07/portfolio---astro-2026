@@ -1,280 +1,43 @@
 [
   {
-    "title": "Rick & Morty Wiki",
-    "shortDesc": "Una wiki de la serie animada Rick & Morty utilizando la API",
-    "cover": "https://i.imgur.com/7cNqkwx.png",
+    "title": "My Social Network",
+    "shortDesc": "Una red social/foro en la que puedes interactuar con otros usuarios",
+    "cover": "/assets/my-social-network-cover.png",
     "technologies": [
-      {
-        "name": "Git",
-        "image": "/assets/techs/git.png"
-      },
-      {
-        "name": "Github",
-        "image": "/assets/techs/github.png"
-      },
-      {
-        "name": "TailwindCSS",
-        "image": "/assets/techs/Tailwind-img.png"
-      },
-      {
-        "name": "React",
-        "image": "/assets/techs/react.png"
-      },
-      {
-        "name": "NPM",
-        "image": "/assets/techs/1200px-Npm-logo.svg.png"
-      },
-      {
-        "name": "PostMan",
-        "image": "/assets/techs/postman.png"
-      }
+      "Vue 3",
+      "TypeScript",
+      "Pinia",
+      "TailwindCSS",
+      "Laravel",
+      "Laravel Reverb",
+      "REST APIs",
+      "PostgreSQL",
+      "AWS",
+      "Git",
+      "Github",
+      "PostMan"
     ],
-    "repo": "https://github.com/barbosa0205/Rick-Morty-wiki",
-    "web": "https://glittery-madeleine-5c74c3.netlify.app/",
-    "longDesc": "<!DOCTYPE html>\n<html>\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Welcome file</title>\n  <link rel=\"stylesheet\" href=\"https://stackedit.io/style.css\" />\n</head>\n\n<body class=\"stackedit\">\n  <div class=\"stackedit__html\"><p><img src=\"https://i.imgur.com/7cNqkwx.png\n\" alt=\"enter image description here\"><br>\n<p>Rick & Morty wiki cuenta con datos interesantes de la serie como personajes, locaciones, episodios y datos a detalle de cada integrante de la serie animada.</p>\n<p>el proyecto fue creado utilizando las siguientes tecnologías:</p>\n<ul>\n<li>React</li>\n<li>TailwindCSS</li>\n<li>Git y Github</li>\n</ul>\n<p>La aplicación web cuenta con las siguientes funciones:</p>\n<ul>\n<li>Mostrar todos los personajes</li>\n<li>Mostrar informacion detallada de cada personaje.</li>\n<li>Mostrar todas las locaciones</li>\n<li>Mostrar informacion detallada de cada locacion como los personajes que viven en esa locacion</li>\n<li>Mostrar todos los episodios</li>\n<li>Mostrar informacion detallada de cada episodio, como tambien los personajes que salen en el episodio</li>\n</ul>\n</div>\n</body>\n\n</html>"
+    "repo": [
+      "https://github.com/kirbi0w07/social-network",
+      "https://github.com/kirbi0w07/social-network-api"
+    ],
+    "web": "https://guileless-druid-3171e0.netlify.app/"
   },
   {
-    "title": "Foro 420",
-    "shortDesc": "Foro sobre cultivo y cultura cannabica en español 🌱",
-    "cover": "https://i.imgur.com/6IBUPlV.png",
+    "title": "Lili Coffee",
+    "shortDesc": "Un landing page para la cafeteria 'Lili Coffe'",
+    "cover": "/assets/lili-coffe-cover.png",
     "technologies": [
-      {
-        "name": "Git",
-        "image": "/assets/techs/git.png"
-      },
-      {
-        "name": "Github",
-        "image": "/assets/techs/github.png"
-      },
-      {
-        "name": "TailwindCSS",
-        "image": "/assets/techs/Tailwind-img.png"
-      },
-      {
-        "name": "NPM",
-        "image": "/assets/techs/1200px-Npm-logo.svg.png"
-      },
-      {
-        "name": "NodeJS",
-        "image": "/assets/techs/node.png"
-      },
-      {
-        "name": "NextJS",
-        "image": "/assets/techs/next.png"
-      },
-      {
-        "name": "MongoDB",
-        "image": "/assets/techs/mongo.png"
-      },
-      {
-        "name": "PostMan",
-        "image": "/assets/techs/postman.png"
-      },
-      {
-        "name": "Socket.io",
-        "image": "/assets/techs/Socket-io.svg"
-      }
+      "Astro",
+      "JavaScript",
+      "Vue 3",
+      "TailwindCSS",
+      "Git",
+      "Github"
     ],
-    "repo": "https://github.com/barbosa0205/foro420",
-    "web": "https://foro420-ten.vercel.app/",
-    "longDesc": "<!DOCTYPE html>\n<html>\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Welcome file</title>\n  <link rel=\"stylesheet\" href=\"https://stackedit.io/style.css\" />\n</head>\n\n<body class=\"stackedit\">\n  <div class=\"stackedit__html\"><p><img src=\"https://i.imgur.com/tJ8JUKE.png\" alt=\"enter image description here\"><br>\nForo 420 es un sitio en español en el que se pueden crear aportes, publicaciones o preguntas sobre la cultura cannabica. el proyecto fue creado utilizando el stack MERN (MongoDB, Express, React, Node)<br>\ntambién se utilizaron las siguientes tecnologías:</p>\n<ul>\n<li>NextJS (Framework de React).</li>\n<li>Tailwind CSS (estilos).</li>\n<li>Socket-io (Conexión en tiempo real).</li>\n</ul>\n<p>la aplicación web cuenta con las siguientes funciones:</p>\n<ul>\n<li>Inicio de sesión / Registro con Google.</li>\n<li>Crear, Ver, Editar y Eliminar posts.</li>\n<li>Guardar posts.</li>\n<li>dar me gusta a posts.</li>\n<li>agregar  o seguir a otros usuarios.</li>\n<li>Editar tu perfil.</li>\n<li>Notificaciones en tiempo Real.</li>\n<li>Responsive.</li>\n</ul>\n</div>\n</body>\n\n</html>\n"
-  },
-  {
-    "title": "Portafolio",
-    "shortDesc": "Mi portafolio, donde estas leyendo esto tambien es un proyecto! 🎉",
-    "cover": "https://i.imgur.com/sKSfvRm.png",
-    "technologies": [
-      {
-        "name": "Astro",
-        "image": "/assets/astro-logo-B3B4DABB0A-seeklogo.com.png"
-      },
-      {
-        "name": "React",
-        "image": "/assets/techs/react.png"
-      },
-      {
-        "name": "Git",
-        "image": "/assets/techs/git.png"
-      },
-      {
-        "name": "Github",
-        "image": "/assets/techs/github.png"
-      },
-      {
-        "name": "NPM",
-        "image": "/assets/techs/1200px-Npm-logo.svg.png"
-      },
-      {
-        "name": "TailwindCSS",
-        "image": "/assets/techs/Tailwind-img.png"
-      }
+    "repo": [
+      "https://github.com/kirbi0w07/lili-coffee"
     ],
-    "repo": "https://github.com/barbosa0205/portfolio---Astro",
-    "web": "https://barbosadev.com",
-    "longDesc": "<!DOCTYPE html>\n<html>\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Welcome file</title>\n  <link rel=\"stylesheet\" href=\"https://stackedit.io/style.css\" />\n</head>\n\n<body class=\"stackedit\">\n  <div class=\"stackedit__html\"><p><img src=\"https://i.imgur.com/rs2pYlr.png\" alt=\"enter image description here\"></p>\n<p>Mi porta folio web donde encontraras información sobre mi y lo que hago como desarrollador web.</p>\n<p>El proyecto fue creado utilizando las siguientes tecnologías:</p>\n<ul>\n<li>React</li>\n<li>MongoDB</li>\n<li>CSS</li>\n</ul>\n<p>La aplicación web cuenta con las siguientes funciones:</p>\n<ul>\n<li>Obtener las tecnologías desde la base de datos.</li>\n<li>Obtener los proyectos desde la base de datos.</li>\n<li>Menu de navegación.</li>\n<li>Enrutador para cambiar entre paginas.</li>\n<li>Responsive.</li>\n</ul>\n</div>\n</body>\n\n</html>"
-  },
-  {
-    "title": "MY POKEDEX",
-    "shortDesc": "Una pequeña pero grandiosa pokedex que te dara un vistazo a las caracteristicas de algunos de los pokemon que habitan los valles, Atrapalos a todos🚀",
-    "cover": "https://i.imgur.com/xDGOJB7.png",
-    "technologies": [
-      {
-        "name": "SASS",
-        "image": "/assets/techs/sass.png"
-      },
-      {
-        "name": "React",
-        "image": "/assets/techs/react.png"
-      },
-      {
-        "name": "NPM",
-        "image": "/assets/techs/1200px-Npm-logo.svg.png"
-      },
-      {
-        "name": "Git",
-        "image": "/assets/techs/git.png"
-      },
-      {
-        "name": "Github",
-        "image": "/assets/techs/github.png"
-      }
-    ],
-    "repo": "https://github.com/barbosa0205/MyPokedex",
-    "web": "https://mypokedex-barbosa02058.netlify.app/welcome",
-    "longDesc": "<!DOCTYPE html>\n<html>\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Welcome file</title>\n  <link rel=\"stylesheet\" href=\"https://stackedit.io/style.css\" />\n</head>\n\n<body class=\"stackedit\">\n  <div class=\"stackedit__html\"><p><img src=\"https://i.imgur.com/ZNKUbky.png\" alt=\"enter image description here\"><br>\nMyPokedex es una intuitiva y responsiva aplicación en la cual puedes explorar y obtener información acerca de cientos de pokemon.</p>\n<p>El proyecto fue creado utilizando las siguientes tecnologías:</p>\n<ul>\n<li>React</li>\n<li>SASS</li>\n<li>API pokeapi</li>\n</ul>\n<p>La aplicación web cuenta con las siguientes funciones:</p>\n<ul>\n<li>Inicio de sesión por nombre.</li>\n<li>Al iniciar sesión por nombre se te coloca un avatar al azar.</li>\n<li>Muestra pokemon aleatorio.</li>\n<li>Puedes cambiar a otro pokemon aleatorio.</li>\n<li>Puedes buscar pokemon por su nombre o id.</li>\n<li>Puedes explorar todos los pokemons con paginación.</li>\n<li>Ver información detallada de cada pokemon</li>\n<li>Responsive</li>\n</ul>\n</div>\n</body>\n\n</html>\n"
-  },
-  {
-    "title": "Pares Game",
-    "shortDesc": "Juego de cartas multijugador de hasta 6 jugadores, con una interfaz amigable y divertida ♠️ ♥️ (beta)",
-    "cover": "https://i.imgur.com/sYBEp36.jpg",
-    "technologies": [
-      {
-        "name": "Git",
-        "image": "/assets/techs/git.png"
-      },
-      {
-        "name": "Github",
-        "image": "/assets/techs/github.png"
-      },
-      {
-        "name": "SASS",
-        "image": "/assets/techs/sass.png"
-      },
-      {
-        "name": "React",
-        "image": "/assets/techs/react.png"
-      },
-      {
-        "name": "NPM",
-        "image": "/assets/techs/1200px-Npm-logo.svg.png"
-      },
-      {
-        "name": "Firabase",
-        "image": "/assets/techs/firebase.png"
-      },
-      {
-        "name": "Socket.io",
-        "image": "/assets/techs/Socket-io.svg"
-      }
-    ],
-    "repo": "https://github.com/barbosa0205/pares-game",
-    "web": "https://pares-game.web.app/",
-    "longDesc": "<!DOCTYPE html>\n<html>\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Welcome file</title>\n  <link rel=\"stylesheet\" href=\"https://stackedit.io/style.css\" />\n</head>\n\n<body class=\"stackedit\">\n  <div class=\"stackedit__html\"><p><img src=\"https://i.imgur.com/bk6FLL1.png\" alt=\"enter image description here\"><br>\nPares Game es un juego de cartas Online de hasta 6 jugadores, esta basado en el juego de cartas “a pescar” o “pares” el juego consiste en hacer pares preguntando a tus contrincantes si tienen alguna carta que te sirva, el que se quede sin cartas gana la partida. el proyecto fue creado utilizando las siguientes tecnologías:</p>\n<ul>\n<li>React</li>\n<li>SASS</li>\n<li>Socket-io (Conexión en tiempo real).</li>\n<li>Firebase (base de datos)</li>\n</ul>\n<p>la aplicación web cuenta con las siguientes funciones:</p>\n<ul>\n<li>Inicio de sesión / Registro con Google.</li>\n<li>Editar tu perfil.</li>\n<li>Notificaciones en tiempo Real.</li>\n<li>Creación de salas para jugar en grupo.</li>\n<li>Responsive.</li>\n</ul>\n</div>\n</body>\n\n</html>\n"
-  },
-
-  {
-    "title": "e-commerce Dagga Winkel",
-    "shortDesc": "Tienda en linea Dagga winkel. E-commerce ficticio de productos variados 🛒",
-    "cover": "https://i.imgur.com/jiusmKB.jpg",
-    "technologies": [
-      {
-        "name": "Git",
-        "image": "/assets/techs/git.png"
-      },
-      {
-        "name": "Github",
-        "image": "/assets/techs/github.png"
-      },
-      {
-        "name": "SASS",
-        "image": "/assets/techs/sass.png"
-      },
-      {
-        "name": "React",
-        "image": "/assets/techs/react.png"
-      },
-      {
-        "name": "NPM",
-        "image": "/assets/techs/1200px-Npm-logo.svg.png"
-      },
-      {
-        "name": "Firabase",
-        "image": "/assets/techs/firebase.png"
-      }
-    ],
-    "repo": "https://github.com/barbosa0205/dagga-winkel-store-app",
-    "web": "https://dagga-winkel-ecommerce.web.app/",
-    "longDesc": "<!DOCTYPE html>\n<html>\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Welcome file</title>\n  <link rel=\"stylesheet\" href=\"https://stackedit.io/style.css\" />\n</head>\n\n<body class=\"stackedit\">\n  <div class=\"stackedit__html\"><p><img src=\"https://i.imgur.com/LBHY8jG.png\" alt=\"enter image description here\"><br>\nDagga Winkel es un E-Commerce de una amplia variedad de productos que abarcan desde celulares y camaras, hasta joyería y Video juegos, cuenta con un panel administrativo en el cual se pueden subir productos.</p>\n<p>el proyecto fue creado utilizando las siguientes tecnologías:</p>\n<ul>\n<li>React</li>\n<li>SASS</li>\n<li>Firebase (base de datos)</li>\n</ul>\n<p>La aplicación web cuenta con las siguientes funciones:</p>\n<ul>\n<li>Inicio de sesión / Registro con correo electrónico y contraseña</li>\n<li>Editar tu perfil.</li>\n<li>Buscar productos</li>\n<li>Si se es admin se pueden (crear, editar, eliminar) productos</li>\n<li>Ver categorías de productos</li>\n<li>Al cambiar el color del producto se cambia la imagen</li>\n<li>Agregar productos al carrito</li>\n<li>Responsive</li>\n</ul>\n</div>\n</body>\n\n</html>\n"
-  },
-  {
-    "title": "Minimalist Calc",
-    "shortDesc": "Una calculadora con un diseño moderno y minimalista 📱",
-    "cover": "https://i.imgur.com/DOdLFM0.png",
-    "technologies": [
-      {
-        "name": "HTML5",
-        "image": "/assets/techs/html.png"
-      },
-      {
-        "name": "CSS3",
-        "image": "/assets/techs/css.png"
-      },
-      {
-        "name": "JavaScript",
-        "image": "/assets/techs/js.png"
-      },
-      {
-        "name": "Git",
-        "image": "/assets/techs/git.png"
-      },
-      {
-        "name": "Github",
-        "image": "/assets/techs/github.png"
-      }
-    ],
-    "repo": "https://github.com/barbosa0205/Minimalist-Calculator",
-    "web": "https://barbosa0205.github.io/Minimalist-Calculator/",
-    "longDesc": "<!DOCTYPE html>\n<html>\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Welcome file</title>\n  <link rel=\"stylesheet\" href=\"https://stackedit.io/style.css\" />\n</head>\n\n<body class=\"stackedit\">\n  <div class=\"stackedit__html\"><p><img src=\"https://i.imgur.com/PSAt2XM.png\" alt=\"enter image description here\"><br>\nCalculadora con un aspecto moderno capaz de realizar las operaciones básicas y mostrarte el historial de operaciones que haz realizado .</p>\n<p>El proyecto fue creado utilizando las siguientes tecnologías:</p>\n<ul>\n<li>HTML</li>\n<li>CSS</li>\n<li>JAVASCRIPT</li>\n</ul>\n<p>La aplicación web cuenta con las siguientes funciones:</p>\n<ul>\n<li>Operaciones básicas (suma, resta, multiplicación, division y porcentajes).<br>\n-Guardar el historial de las operaciones.</li>\n<li>Borrar el historial de operaciones.</li>\n<li>Responsive.</li>\n</ul>\n</div>\n</body>\n\n</html>"
-  },
-
-  {
-    "title": "Piedra Papel & Tijeras",
-    "shortDesc": "El clasico juego de Piedra Papel Y Tijeras con un diseño retro! 👾",
-    "cover": "https://i.imgur.com/EsJ0uza.png",
-    "technologies": [
-      {
-        "name": "HTML5",
-        "image": "/assets/techs/html.png"
-      },
-      {
-        "name": "CSS3",
-        "image": "/assets/techs/css.png"
-      },
-      {
-        "name": "JavaScript",
-        "image": "/assets/techs/js.png"
-      },
-      {
-        "name": "Git",
-        "image": "/assets/techs/git.png"
-      },
-      {
-        "name": "Github",
-        "image": "/assets/techs/github.png"
-      }
-    ],
-    "repo": "https://github.com/barbosa0205/Paper-Rock-Scsissors",
-    "web": "https://barbosa0205.github.io/Paper-Rock-Scsissors/",
-    "longDesc": "<!DOCTYPE html>\n<html>\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Welcome file</title>\n  <link rel=\"stylesheet\" href=\"https://stackedit.io/style.css\" />\n</head>\n\n<body class=\"stackedit\">\n  <div class=\"stackedit__html\"><p><img src=\"https://i.imgur.com/cxeacZg.png\" alt=\"enter image description here\"></p>\n<p>Esta juego de piedra papel y tijera lo cree para practicar javascript y el responsive con css, es un juego simple pero divertido con un diseño retro y minimalista.</p>\n<p>El proyecto fue creado utilizando las siguientes tecnologías:</p>\n<ul>\n<li>HTML</li>\n<li>CSS</li>\n</ul>\n<p>La aplicación web cuenta con las siguientes funciones:</p>\n<ul>\n<li>Elegir entre piedra papel y tijera mediante 3 botones.</li>\n<li>Iniciar la partida mediante el botón de Play.</li>\n<li>Cambiar el color de la mano.</li>\n<li>Cambiar entre modo claro y oscuro.</li>\n<li>Reiniciar el juego.</li>\n<li>Resetear el juego.</li>\n</ul>\n</div>\n</body>\n\n</html>"
+    "web": "https://glittery-madeleine-5c74c3.netlify.app/"
   }
 ]

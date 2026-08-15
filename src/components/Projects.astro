@@ -1,5 +1,10 @@
 ---
 import proyects from '../data/proyects.json'
+import technologies from '../data/technologies.json'
+
+const getTechnology = (name: string) => {
+  return technologies.find(tech => tech.name === name)
+}
 ---
 
 <section class='w-full flex flex-col items-center mx-auto pt-14 pb-10'>
@@ -9,57 +14,79 @@ import proyects from '../data/proyects.json'
   >
     Proyectos
   </h2>
+
   <ul
     class='w-full flex items-center justify-evenly flex-wrap place-items-center px-2'
   >
     {
       proyects.map((p) => (
         <article class='container relative w-full flex flex-col movil-lg:max-w-2xl tablet:max-w-3xl tablet-lg:max-w-4xl tablet-xl:max-w-xl tablet-xl:min-h-[650px] laptop:max-w-3xl laptop:min-h-[550px] laptop-lg:max-w-4xl laptop-lg:min-h-min my-5 shadow-md ml-5 mr-5 tablet-xl:mx-0 mx-auto rounded-2xl'>
+
           <header class='w-full'>
             <img
-              class='object-cover object-center w-full max-h-[200px] rounded-t-2xl border border-slate-200'
+              class='object-cover object-top w-full max-h-[200px] rounded-t-2xl border border-slate-200'
               src={p.cover}
               alt='cover'
             />
           </header>
+
           <footer class='w-full flex flex-col justify-between pt-10 bg-gray-50 rounded-b-2xl'>
-            <h4
-              class='text-center font-inter font-bold text-4xl movil-lg:text-5xl tablet-lg:text-6xl tablet-xl:text-5xl text-slate-700 pb-4 mb-1
-            '
-            >
+
+            <h4 class='text-center font-inter font-bold text-4xl movil-lg:text-5xl tablet-lg:text-6xl tablet-xl:text-5xl text-slate-700 pb-4 mb-1'>
               {p.title}
             </h4>
-            <!--repo y web buttons -->
-            <div class="w-full flex items-center justify-center flex-wrap mb-14 mt-3 text-white font-semibold font-inter ">
-              
-               <a class="movil-lg:text-3xl tablet-lg:text-3xl my-3 px-5 py-2 tablet-xl:py-4 mx-2 rounded-xl bg-slate-700" href={`${p.repo}`} target="_blank">Repositorio</a>
-              
-               <a class="movil-lg:text-3xl tablet-lg:text-3xl px-5 py-2 tablet-xl:py-4 mx-2 rounded-xl bg-slate-700" href={`${p.web}`} target="_blank">Sitio web</a>
-               
-              
+
+            <div class="w-full flex items-center justify-center flex-wrap mb-14 mt-3 text-white font-semibold font-inter">
+              <div class="flex">
+                {p.repo.map((r) => (
+                  <a
+                    class="movil-lg:text-2xl tablet-lg:text-2xl my-3 px-3 py-1 tablet-xl:py-4 mx-2 rounded-xl bg-slate-700"
+                    href={r}
+                    target="_blank"
+                  >
+                    Repositorio
+                  </a>
+                ))}
+              </div>
+
+              <a
+                class="movil-lg:text-2xl tablet-lg:text-2xl px-5 py-2 tablet-xl:py-4 mx-2 rounded-xl bg-slate-700"
+                href={p.web}
+                target="_blank"
+              >
+                Sitio web
+              </a>
             </div>
-            
-              <p class='font-inter text-2xl movil-lg:text-3xl tablet-lg:text-4xl tablet-xl:text-3xl mx-auto  font-semibold text-slate-700 text-center'>
-                {p.shortDesc}
+
+            <p class='font-inter text-2xl movil-lg:text-3xl tablet-lg:text-4xl tablet-xl:text-3xl mx-auto font-semibold text-slate-700 text-center'>
+              {p.shortDesc}
+            </p>
+
+            <div class='w-fit rounded-md mt-10 tablet-xl:mt-6 laptop-lg:my-6 mx-auto'>
+
+              <p class='pb-5 text-slate-700 text-center font-inter font-bold text-3xl movil-lg:text-4xl tablet-lg:text-5xl tablet-xl:text-4xl'>
+                Tecnologias
               </p>
-              <ul class='w-fit rounded-md mt-10 tablet-xl:mt-6 laptop-lg:my-6 mx-auto'>
-                <p class='pb-5 text-slate-700 text-center font-inter font-bold text-3xl movil-lg:text-4xl tablet-lg:text-5xl tablet-xl:text-4xl'>
-                  Tecnologias
-                </p>
-                <div class='flex items-center flex-wrap content-center px-5 tablet-lg:px-7'>
-                  {p.technologies.length
-                    ? p.technologies.map((tec) => (
-                        <img
-                          class='max-h-12 tablet:max-h-16 max-w-[48px] tablet:max-w-[60px] mx-3 my-1'
-                          src={tec.image}
-                          alt={tec.name}
-                          title={tec.name}
-                        />
-                      ))
-                    : ''}
-                </div>
-              </ul>
-      
+
+              <div class='flex items-center flex-wrap content-center px-5 tablet-lg:px-7'>
+                {
+                  p.technologies.map((tec) => {
+                    const technology = getTechnology(tec)
+
+                    return technology ? (
+                      <img
+                        class='max-h-12 tablet:max-h-16 max-w-[48px] tablet:max-w-[60px] m-3'
+                        src={technology.image}
+                        alt={technology.name}
+                        title={technology.name}
+                      />
+                    ) : null
+                  })
+                }
+              </div>
+
+            </div>
+
           </footer>
         </article>
       ))
