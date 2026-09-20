@@ -39,5 +39,26 @@
       "https://github.com/kirbi0w07/lili-coffee"
     ],
     "web": "https://lili-coffee.netlify.app/"
+  },
+  {
+    "title": "My Workout App",
+    "shortDesc": "Una aplicación para gestionar tu rutina de ejercicios",
+    "cover": "/assets/my-workout-app-cover.jpg",
+    "technologies": [
+      "React",
+      "React Native",
+      "TypeScript",
+      "Zustand",
+      "Laravel",
+      "REST APIs",
+      "PostgreSQL",
+      "Git",
+      "Github",
+      "PostMan"
+    ],
+    "repo": [
+      "https://github.com/kirbi0w07/workout-app",
+      "https://github.com/kirbi0w07/workout-api"
+    ]
   }
 ]

@@ -30,6 +30,21 @@
     "image": "/assets/techs/pinia.png"
   },
   {
+    "name": "React",
+    "category": "Frontend",
+    "image": "/assets/techs/react.png"
+  },
+  {
+    "name": "React Native",
+    "category": "Frontend",
+    "image": "/assets/techs/react.png"
+  },
+  {
+    "name": "Zustand",
+    "category": "Frontend",
+    "image": "/assets/techs/zustand.jfif"
+  },
+  {
     "name": "Astro",
     "category": "Frontend",
     "image": "/assets/astro-logo-B3B4DABB0A-seeklogo.com.png"
